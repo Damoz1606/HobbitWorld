@@ -47,7 +47,7 @@ export abstract class Enemy extends Character {
 
     public getAttackRadius(): number {
         return this.attackRadius;
-    }
+    }   
 
     public setAggressiveRadius(aggressiveRadius: number): void {
         this.aggressiveRadius = aggressiveRadius;
